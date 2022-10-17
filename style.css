@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: 70px;
+  background-color: red;
+}
+.logo img {
+  height: 60px;
+}
+.grid-container {
+  display: grid;
+  background-color: red;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: red;
+}
+img {
+  height: 300px;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin: 14px;
+}
+footer {
+  color: gray;
+  height: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+  .nav li a{font-size: smaller;
+
+  }
+
+  }
+
+  .nav li a{color: white;
+
+  }
